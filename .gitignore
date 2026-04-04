@@ -127,6 +127,9 @@ deploy/docker-compose.override.yml
 .gocache/
 vite.config.js
 docs/*
+!docs/deploy-logs/
+docs/deploy-logs/*
+!docs/deploy-logs/*.md
 .serena/
 .codex/
 frontend/coverage/
